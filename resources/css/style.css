@@ -17,6 +17,7 @@ header{
   position: fixed;
   z-index: 1;
   align-items: center;
+  margin-right: 24px;
 }
 
 header .logo .header-name{
@@ -28,7 +29,8 @@ header .logo .header-title{
 }
 
 header .logo .header-sponsor{
-  color: #fff;
+  color: black;
+  margin-right: 10px;
 }
 
 /* logo */
