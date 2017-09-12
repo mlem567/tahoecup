@@ -30,6 +30,7 @@ header .logo .header-title{
 
 header .logo .header-sponsor{
   color: black;
+  margin-right: 5px;
 }
 
 /* logo */
@@ -68,4 +69,55 @@ a {
 
 .desktop-nav a{
   padding: 0px 1rem;
+}
+
+
+/*banner section */
+
+.banner{
+  display: flex;
+  padding: 70px 24px 32px 32px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f2ee;
+
+}
+
+.banner img{
+  width: 60%;
+  margin: 32px 65px 32px 24px;
+}
+
+.banner-text{
+  width: 35%;
+  line-height: 1.5;
+  font-weight: bold;
+  margin-bottom: 125px;
+}
+
+.banner-text h1{
+  font-size: 3.5rem;
+  margin-bottom: 2.5rem;
+  color: #18140c
+}
+
+.banner-text h2{
+  font-size: 20px;
+  margin-bottom: 2.5rem;
+  color: #787878
+}
+
+
+.button{
+  background-color: #3e282a;
+  text-align: center;
+  padding: 1rem;
+  border-radius: .2rem;
+  margin: 10px 200px 0px 0px;
+}
+
+.button a{
+  color: #fff;
+  text-decoration: none;
+  margin: 8px 8px;
 }
