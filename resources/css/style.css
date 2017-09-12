@@ -19,6 +19,9 @@ header{
   align-items: center;
 }
 
+header .logo .header-name{
+  color: darkgrey;
+}
 
 /* logo */
 
