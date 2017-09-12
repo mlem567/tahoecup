@@ -27,6 +27,10 @@ header .logo .header-title{
   color: red;
 }
 
+header .logo .header-sponsor{
+  color: #fff;
+}
+
 /* logo */
 
 .logo{
