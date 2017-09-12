@@ -23,6 +23,10 @@ header .logo .header-name{
   color: darkgrey;
 }
 
+header .logo .header-title{
+  color: red;
+}
+
 /* logo */
 
 .logo{
@@ -34,4 +38,29 @@ header .logo .header-name{
 .logo img{
   margin-left: 1.5rem;
   height: 3rem;
+}
+
+
+p{
+  font-size: 1rem;
+  color: #787878
+}
+
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+
+nav ul {
+    padding: 1rem;
+}
+
+a {
+    color: #787878;
+    text-decoration: none;
+}
+
+.desktop-nav a{
+  padding: 0px 1rem;
 }
