@@ -4,5 +4,31 @@ body {
   display: block;
   background-color: gray;
   color:white;
+}
 
+
+/* header section */
+header{
+  background-color: white;
+  height: 4rem;
+  width: 100%;
+  justify-content: space-between;
+  display: inline-flex;
+  position: fixed;
+  z-index: 1;
+  align-items: center;
+}
+
+
+/* logo */
+
+.logo{
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.logo img{
+  margin-left: 1.5rem;
+  height: 3rem;
 }
